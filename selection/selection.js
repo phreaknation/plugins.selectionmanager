@@ -117,7 +117,6 @@ var inRect = function inRect(rect, x, y) {
 };
 
 var checkSprites = function checkSprites() {
-  intersection = intersection || false;
   console.clear();
   group.forEach(function (item, index) {
     var bottom = (item.position.y + item.height);
