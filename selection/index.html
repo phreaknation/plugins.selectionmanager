@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/playground.css">
+    <style>
+      #selection-box {
+        background-color: rgba(255, 255, 0, 0.15);
+        border: 1px solid #e0e000;
+        display: none;
+        pointer-events: none;
+        position: absolute;
+      }
+
+      #selection-box.active {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="playground">
+      <div id="selection-box"></div>
+    </div>
+    <script src="../assets/js/phaser.js"></script>
+    <script src="selection.js"></script>
+  </body>
+</html>
